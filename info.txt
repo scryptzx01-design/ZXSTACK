@@ -5,3 +5,16 @@ git clone https://github.com/scryptzx01-design/ZXSTACK.git
 git add .
 git commit -m "PRO"
 git push origin main
+
+
+
+Solución 1: Actualizar las credenciales en Windows (La más probable)
+
+Windows suele guardar de forma automática tus cuentas de GitHub en el Administrador de Credenciales. Debes borrar la cuenta antigua para que te pida la correcta.
+1. Presiona la tecla Windows y busca Administrador de Credenciales (Credential Manager).
+2. Selecciona Credenciales de Windows.
+3. Busca en la lista de abajo cualquier elemento que diga git:https://github.com o GitHub.
+4. Haz clic sobre él y selecciona Quitar / Eliminar.
+5. Regresa a tu terminal y vuelve a ejecutar:bash
+git push origin main
+Usa el código con precaución.
