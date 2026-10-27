@@ -1,6 +1,7 @@
 cd Desktop
 git clone https://github.com/scryptzx01-design/ZXSTACK.git
 
+
 git add .
-git commit -m "Explicación breve de lo que avanzaste"
+git commit -m "PRO"
 git push origin main
